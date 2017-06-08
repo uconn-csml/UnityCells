@@ -1,0 +1,219 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_5_0
+-define:UNITY_5_5
+-define:UNITY_5
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:UNITY_WEBGL
+-define:UNITY_WEBGL_API
+-define:UNITY_DISABLE_WEB_VERIFICATION
+-define:UNITY_GFX_USE_PLATFORM_VSYNC
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_VR
+-define:ENABLE_IL2CPP
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+Assets/Scripts/Cell/Cell.cs
+Assets/Scripts/Cell/Cell2DSetUp.cs
+Assets/Scripts/Cell/CellSetUp.cs
+Assets/Scripts/Cell/DivisionState.cs
+Assets/Scripts/Cell/GeneralBehaveState.cs
+Assets/Scripts/Cell/ICellState.cs
+Assets/Scripts/Environment/CellEffectedEnvState.cs
+Assets/Scripts/Environment/DiffusionState.cs
+Assets/Scripts/Environment/Env2DSetUp.cs
+Assets/Scripts/Environment/EnvSetUp.cs
+Assets/Scripts/Environment/Environment.cs
+Assets/Scripts/Environment/IEnvironmentState.cs
+Assets/Scripts/GlobalVariables.cs
+Assets/Scripts/SetLineRenderer.cs
+Assets/Scripts/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scripts/ScrollingCalendar.cs
+Assets/Scripts/unity-ui-extensions/Examples/testHref.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/Accordion/Accordion.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/Accordion/AccordionElement.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/FloatTween.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/ITweenValue.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/TweenRunner.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/BoxSlider.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorImage.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorLabel.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerControl.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerPresets.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerTester.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSlider.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSliderImage.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorValues.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/ColorChangedEvent.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/HSVChangedEvent.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ColorPicker/HSVUtil.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ColorPicker/HexColorField.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ColorPicker/SVBoxSlider.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ColorPicker/TiltWindow.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ComboBox/AutoCompleteComboBox.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ComboBox/ComboBox.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownList.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListButton.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListItem.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/InputFocus.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableList.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListContent.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListDebug.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListElement.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescaleDragPanel.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescalePanel.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/RescalingPanels/ResizePanel.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/SelectionBox/ExampleSelectable.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/SelectionBox/IBoxSelectable.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/SelectionBox/SelectionBox.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/TextPic.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Controls/UI_Knob.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/BestFitOutline.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/CurvedText.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/CylinderText.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/Gradient.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/Gradient2.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/LetterSpacing.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/NicerOutline.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/RaycastMask.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIAdditiveEffect.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIImageCrop.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/ShaderEffects/UILinearDodgeEffect.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIMultiplyEffect.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIScreenEffect.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/ShaderEffects/UISoftAdditiveEffect.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/ShineEffect.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/ShineEffector.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/SoftMaskScript.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/UIFlippable.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Effects/UIParticleSystem.cs
+Assets/Scripts/unity-ui-extensions/Scripts/InputModules/AimerInputModule.cs
+Assets/Scripts/unity-ui-extensions/Scripts/InputModules/GamePadInputModule.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Layout/CurvedLayout.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Layout/FlowLayoutGroup.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Layout/RadialLayout.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Layout/ScrollSnap.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Layout/ScrollSnapBase.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Layout/TableLayoutGroup.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Layout/TileSizeFitter.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Layout/UIVerticalScroller.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Layout/VerticalScrollSnap.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Primitives/DiamondGraph.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Primitives/UICircle.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Primitives/UICornerCut.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Primitives/UILineRenderer.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Primitives/UILineTextureRenderer.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Primitives/UIPolygon.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Primitives/UIPrimitiveBase.cs
+Assets/Scripts/unity-ui-extensions/Scripts/TabNavigation.cs
+Assets/Scripts/unity-ui-extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipItem.cs
+Assets/Scripts/unity-ui-extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipTrigger.cs
+Assets/Scripts/unity-ui-extensions/Scripts/ToolTips/HoverTooltip.cs
+Assets/Scripts/unity-ui-extensions/Scripts/ToolTips/ToolTip.cs
+Assets/Scripts/unity-ui-extensions/Scripts/UIWindowBase.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/BezierPath.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/CLZF2.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/DragCorrector.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/ExtensionsToggle.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/ExtensionsToggleGroup.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/InputFieldEnterSubmit.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/NonDrawingGraphic.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/PPIViewer.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/ReturnKeyTriggersButton.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/ScrollConflictManager.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/ScrollRectEx.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/ScrollRectExtensions.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/ScrollRectLinker.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/ScrollRectTweener.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/Attributes/DontSaveField.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/ExampleScriptsAndClasses/TestClass.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/ExampleScriptsAndClasses/TestScript.cs
+"Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/Non-Mono Classes/ObjectComponent.cs"
+"Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/Non-Mono Classes/SceneData.cs"
+"Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/Non-Mono Classes/SceneObject.cs"
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/ObjectIdentifier.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/SaveLoad.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/SaveLoadMenu.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/ColorSurrogate.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/GameObjectSurrogate.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/QuaternionSurrogate.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/Texture2DSurrogate.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/TransformSurrogate.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/Vector2Surrogate.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/Vector3Surrogate.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/Surrogates/Vector4Surrogate.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/Serialization/Utilities/TypeSystem.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/SetPropertyUtility.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/TestCompression.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/UIScrollToSelection.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/UIScrollToSelectionXY.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/UISelectableExtension.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/UI_InfiniteScroll.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/UI_ScrollRectOcclusion.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/UI_TweenScale.cs
+Assets/Scripts/unity-ui-extensions/Scripts/Utilities/switchToRectTransform.cs
+"Assets/Scripts/unity-ui-extensions/Scripts/VR Extensions/VRCursor.cs"
+"Assets/Scripts/unity-ui-extensions/Scripts/VR Extensions/VRInputModule.cs"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

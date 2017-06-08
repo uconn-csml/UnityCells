@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/Public/Documents/Unity Projects/ABMTHelper/Assets/test1.unity
+  isLoaded: 1
+  isActive: 1
